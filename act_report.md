@@ -59,6 +59,15 @@ The favorite count trend shows higher increase in trend compared to retweet coun
 
 These are the top 5 common dog names. We can infer that 10 dogs are named as __Charlie__ and __Oliver__ and __Cooper__. There are 9 dogs name __Lucy and Tucker__.
 
+
+## Multiple Dog_stages:
+   Even after extracting the dog_stage from the tweet, Some of the tweets mention multiple dog stages(there might me many reasons for this). Therefore I replaced the multiple dogstages with __"multiple"__ in the dog_stage column. and I found that there were 13 tweets which mention mutiple dogstages and There are more than 1750+ tweets which donot mention any dog stage at all. 
+
+   One reason for multiple dog_stages could be rating of multiple dogs in the same tweet.
+
+   <img src="multiple.png" alt="multiple" width="200px"/>
+
+
 ## Mean Retweet and Favorite counts in Dog_stages:
 
 __(Rounded to nearest integer)__
@@ -69,5 +78,6 @@ __(Rounded to nearest integer)__
 | Floofer | 4347 | 12028 |
 | Pupper | 2026 | 6437 |
 | Puppo | 5770 | 21130 |
+| Multiple | 4781 | 15646 |
 
 
